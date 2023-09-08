@@ -1,2 +1,67 @@
 # desafio-html
-1º desafio sobre o HTML do site DIO
+1º desafio sobre o HTML do site DIO - Curso Formação HTML Web Developer - Criar Uma Página Web Utilizando as Tags Aprendidas
+
+<html>
+    <head>
+        <title>Desafio - Projeto DIO</title>
+    </head>
+    <body>
+        <h1><p style="font-family: Arial"></p>Uma breve história da programação: dos primórdios ao Co-Pilo</h1></p>
+        <h4><i>Christiano Faig <sub>(2023)</sub></i></h4>
+            <hr />
+        
+        <h2 id="indice"><p style="font-family: Verdana"><u>Índice</u></h2></p>
+        <ol>
+            <li><a href="#sobre">Introdução</a></li>
+            <li><a href="#genese">A Gênese da Programação</a><sup>(1920s-1940s)</sup></li>
+            <li><a href="#avanco">Avanço da Programação e Surgimento de Linguagens</a><sup>(1950s-1980s)</sup></li>
+        </ol>
+
+            <h3 id="sobre"><p style="font-family: Verdana">1. Introdução</h3></p>
+            <small><a href="#indice">voltar</a></small>
+        
+        <p>
+            Desde a invenção dos primeiros dispositivos de computação no início do século XX até o advento da inteligência artificial (IA) na programação contemporânea, a ciência da computação e a programação têm percorrido um caminho impressionante, avançando de maneiras inimagináveis. Esta jornada repleta de inovações e revoluções, remodelou significativamente nosso mundo, transformando todos os aspectos da sociedade moderna - desde nossas vidas cotidianas e interações sociais até indústrias globais e a economia mundial.<br>
+            <mark>A linguagem de programação é, essencialmente, a alicerce da era digital.</mark> É o meio pelo qual os humanos se comunicam com as máquinas, instruindo-as a realizar tarefas que vão desde as mais simples até as mais complexas. No decorrer do último século, testemunhamos a evolução dessas linguagens, passando de meras sequências de 1s e 0s para formas complexas e abstratas que nos permitem criar aplicativos sofisticados, sistemas operacionais, e agora, algoritmos de inteligência artificial.
+        </p>
+        
+            <h3 id="genese"><p style="font-family: Verdana">2. A Gênese da Programação (1920s-1940s)</h3></p>
+            <small><a href="#indice">voltar</a></small><br>
+            
+        <p> A história da programação tem suas raízes bem antes da era digital, com a concepção dos primeiros dispositivos de cálculo mecanizado. A década de 1920 marcou um marco importante nesta jornada com o advento do tabulador, uma máquina mecânica criada por Herman Hollerith, que podia processar dados armazenados em cartões perfurados. Esta tecnologia foi uma das primeiras instâncias de instruções sendo usadas para manipular dados em um dispositivo automatizado.<br>
+            No entanto, os verdadeiros primórdios da programação de computadores começam com as contribuições seminais de figuras como Ada Lovelace e Alan Turing. Lovelace, uma matemática inglesa, é frequentemente reconhecida como a primeira programadora do mundo. Ela foi a primeira a reconhecer que uma máquina, como o Mecanismo Analítico proposto por Charles Babbage, poderia ser programada para resolver problemas de qualquer complexidade, além de simples cálculos numéricos.<br>
+            No entanto, o termo "programação" ganhou significado real e substância com o trabalho do matemático britânico Alan Turing. Seus estudos teóricos sobre computação e algoritmos durante a década de 1930 estabeleceram as bases para a ciência da computação moderna. A Máquina de Turing, uma concepção teórica, foi fundamental para entender o que os computadores poderiam fazer. Essencialmente, ela podia ler ou escrever símbolos em uma fita baseada em um conjunto de regras ou 'programa', abrindo caminho para os conceitos modernos de programação.<br>
+            Na década de 1940, começamos a ver a construção dos primeiros computadores eletrônicos, como o ENIAC, que foi usado durante a Segunda Guerra Mundial para cálculos de trajetória de artilharia. Apesar de sua monumentalidade, o ENIAC foi programado de uma forma muito manual e trabalhosa, exigindo a realocação física de cabos e a configuração de interruptores. Foi neste contexto que surgiu o 'plugboard', um tipo de painel de controle onde cabos podiam ser inseridos em diferentes soquetes para alterar a rota dos dados e, portanto, o comportamento da máquina. Os programadores do ENIAC criaram rotinas de cálculo manipulando diretamente esses plugboards, numa forma rudimentar e física de programação.<br>
+            No final da década de 1940, uma equipe de programadoras, lideradas por Grace Hopper, começou a desenvolver a primeira linguagem de programação de verdade, conhecida como Assembly, que permitiu que os programadores escrevessem instruções de máquina usando códigos, em vez de ter que reconfigurar fisicamente a máquina para cada nova tarefa. Este foi um passo crucial na evolução da programação, pois representou a transição de um meio físico de controle da máquina para um método simbólico e abstrato.<br>
+            Esses primeiros passos da programação lançaram as bases para as revoluções que estavam por vir e pavimentaram o caminho para a era moderna da programação, marcada por linguagens de alto nível, interfaces gráficas de usuário e, agora, assistentes de codificação alimentados por IA. Embora a programação de hoje pareça vastamente diferente da era do plugboard, as contribuições pioneiras desses primeiros programadores ainda ressoam em nossas práticas contemporâneas.<br>
+        </p>
+
+            <h3 id="avanco"><p style="font-family: Verdana">3. Avanço da Programação e Surgimento de Linguagens (1950s-1980s)</h3></p>
+            <small><a href="#indice">voltar</a></small><br>
+        <p>            
+            A fase que se estende das décadas de 1950 a 1980 foi um período de expansão acelerada e inovação na ciência da computação. Durante essas décadas, assistimos ao nascimento e à maturação de várias linguagens de programação que moldaram e, em muitos casos, continuam a influenciar o campo da programação. Essas linguagens facilitaram a comunicação entre humanos e máquinas, marcando a transição da programação de baixo nível para a programação de alto nível, uma mudança que aumentou a produtividade e a criatividade dos programadores.<br>
+            No início da década de 1950, as primeiras linguagens de programação de alto nível começaram a surgir. Em 1957, a FORTRAN (FORmula TRANslation) foi desenvolvida pela IBM e rapidamente ganhou popularidade. Projetada principalmente para cálculos científicos e de engenharia, FORTRAN foi a primeira linguagem de programação a permitir a escrita de programas de uma forma mais próxima à linguagem humana, aumentando a eficiência dos programadores e tornando a programação mais acessível.<br>
+            Em paralelo ao desenvolvimento de FORTRAN, surgiram outras linguagens pioneiras. A linguagem LISP, desenvolvida por John McCarthy no MIT em 1958, foi criada para apoiar pesquisas em inteligência artificial e é notável por introduzir a noção de programação funcional. Em 1959, a linguagem <abbr title="COmmon Business-Oriented Language">COBOL</abbr> foi introduzida. Como o nome sugere, ela foi projetada para aplicações de negócios, e sua facilidade de leitura teve uma influência significativa na acessibilidade da programação.<br>
+            Durante a década de 1960, novas linguagens e paradigmas de programação continuaram a surgir. A linguagem ALGOL, um precursor das modernas linguagens de programação baseadas em blocos, foi um exemplo significativo. O BASIC, desenvolvido em 1964, procurou tornar a programação acessível para usuários sem formação técnica, e mais tarde desempenhou um papel fundamental no início da revolução dos computadores pessoais.<br>
+            A década de 1970 testemunhou a chegada de linguagens de programação que se tornaram algumas das mais influentes na história da programação. C, uma linguagem de programação de propósito geral criada nos laboratórios Bell, foi uma delas. Com seu desempenho eficiente e sintaxe clara, C influenciou muitas linguagens subsequentes, incluindo C++, C#, Objective-C e muitas outras. Outra linguagem notável desta época foi a Pascal, desenvolvida com o propósito de incentivar as boas práticas de programação.<br>
+            A década de 1980 viu o nascimento de linguagens orientadas a objetos, um paradigma que modela a programação em torno de "objetos" - entidades que possuem estado e comportamento. Entre as linguagens de programação orientadas a objetos, a mais notável é o C++, uma extensão do C, que incorporou a programação orientada a objetos, tornando-a mais eficaz para o desenvolvimento de software complexo. <br>
+            <blockquote> Durante essas décadas de evolução rápida, a programação foi transformada de uma atividade obscura e altamente especializada para uma prática cada vez mais acessível e amplamente utilizada. Essas inovações permitiram um aumento significativo na produtividade do desenvolvedor e abriram o caminho para a próxima era de programação: a explosão da programação orientada a objetos e eventos, que continuaria a reformular o campo nos anos seguintes.</blockquote><br>
+        </p>
+
+        Você pode ver o artigo completo <del>aqui</del> no link da página do Linked-in!
+            <h5><strong>
+                <p style="color: red;">
+                No artigo original, você poderá conferir os demais tópicos abaixo:
+                </p>
+                <ul>
+                    <li>Explosão da Programação Orientada a Objetos e Eventos (1980s-2000s)</li>
+                    <li>A Era da Programação na Nuvem e Móvel (2000s-2020s)</li>
+                    <li>Inteligência Artificial e Programação (2010s-2020s)</li>
+                    <li>Co-pilot e o Futuro da Programação</li>
+                </ul>
+            </h5></strong>
+
+            <h6><a href="https://www.linkedin.com/pulse/uma-breve-hist%C3%B3ria-da-programa%C3%A7%C3%A3o-dos-prim%C3%B3rdios-ao-christiano-faig/?originalSubdomain=pt">Clique aqui para ver o artigo completo</a></h6>
+            <small><a href="#indice">voltar</a></small><br>
+    </body>
+</html>
